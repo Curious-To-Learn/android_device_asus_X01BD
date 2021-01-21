@@ -2,19 +2,19 @@
   {
     "repository" : "CorvusRom-Devices/device_asus_X01BD",
     "target_path": "device/asus/X01BD",
-    "branch"     : "11",
+    "branch"     : "Ellen",
     "remote"     : "github"
   },
   {
     "repository" : "CorvusRom-Devices/kernel_asus_sdm660",
     "target_path": "kernel/asus/sdm660",
-    "branch"     : "11",
+    "branch"     : "Ellen",
     "remote"     : "github"
   },
   {
     "repository" : "CorvusRom-Devices/vendor_asus_X01BD",
     "target_path": "vendor/asus/X01BD",
-    "branch"     : "11",
+    "branch"     : "Ellen",
     "remote"     : "github"
   }
 ]
