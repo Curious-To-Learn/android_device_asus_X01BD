@@ -77,7 +77,10 @@ persist.hwc.enable_vds=1
 persist.sys.wfd.virtual=0
 
 # X01BD
-ro.xtended.device=X01BD
+ro.corvus.device=X01BD
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Maintainer
+ro.corvus.maintainer=Curious_To_Learn
