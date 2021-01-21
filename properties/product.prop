@@ -11,6 +11,5 @@ ro.lmk.use_minfree_levels=true
 ro.lmk.log_stats=true
 
 # Gboard
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.com.google.ime.kb_pad_port_b=1
+ro.com.google.ime.kb_pad_port_b=1
 
