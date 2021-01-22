@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2020 The TitaniumOS Project
+# Copyright (C) 2019-2020 The AncientOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/titanium_X01BD.mk
+    $(LOCAL_DIR)/ancient_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    titanium_X01BD-eng \
-    titanium_X01BD-user \
-    titanium_X01BD-userdebug
+    ancient_X01BD-userdebug

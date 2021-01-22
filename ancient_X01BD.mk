@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2020 The TitaniumOS Project
+# Copyright (C) 2019-2020 The AncientOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,14 +19,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Titanium stuff
-$(call inherit-product, vendor/titanium/config/common_full_phone.mk)
+# Inherit some common Ancient stuff
+$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Official Titanium
-Titanium_BUILD_TYPE := UNOFFICIAL
+# Ancient
+ANCIENT_OFFICIAL := true
+TARGET_GAPPS_ARCH := arm64
 
 # Google Connectivity Services
 TARGET_INCLUDE_WIFI_EXT := true
@@ -35,7 +36,7 @@ TARGET_INCLUDE_WIFI_EXT := true
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := titanium_X01BD
+PRODUCT_NAME := ancient_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_X01BDA
@@ -53,5 +54,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Build fingerprint
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys"
 
-# Maintainer
-TITANIUM_MAINTAINER := 🔥Curious_To_Learn🔥

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2020 Havoc-OS
+# Copyright (C) 2019-2020 AncientOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -35,7 +35,7 @@ TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := generic
 
 TARGET_2ND_ARCH := arm
-TARGET_2ND_ARCH_VARIANT := armv8-2a
+TARGET_2ND_ARCH_VARIANT := armv8-a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a73
